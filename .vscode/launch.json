@@ -1,0 +1,57 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 爬取级联关系",
+            "type": "python",
+            "request": "launch",
+            "program": "src/crawler/cascade-crawler.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: 更新微博时间",
+            "type": "python",
+            "request": "launch",
+            "program": "src/preprocess/update-weibo-time.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: sort directory",
+            "type": "python",
+            "request": "launch",
+            "program": "src/preprocess/sort-for-directory.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: current process",
+            "type": "python",
+            "request": "launch",
+            "program": "src/preprocess/current-process.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: extract information",
+            "type": "python",
+            "request": "launch",
+            "program": "src/preprocess/extract-information.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: crawl",
+            "type": "python",
+            "request": "launch",
+            "program": "src/crawler/crawler.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: get hot",
+            "type": "python",
+            "request": "launch",
+            "program": "src/preprocess/hot-weibo.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
